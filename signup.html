@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>Learn a language with crosswords!</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+    <section class="layout">
+        <div class="sidebar">
+            <a href="index.html">Home</a><br>
+            <a href="login.html">Login</a><br>
+        </div>
+        <div class="content">
+
+            <form>
+                <h1>Sign up!</h1>
+                <p>While you do not need an account, opening one permits you to keep track of your progress and to
+                    facilitate a personalized learning experience.</p>
+                <!-- Need to validate user input -->
+                <!-- Need to create dummy database -->
+                <p><b>Name: </b><input type="text" name="name" placeholder="First name"><br>
+                    <b>Username/pseudo: </b><input type="text" name="username" placeholder="Username"><br>
+                    <b>E-mail: </b><input type="text" name="email" placeholder="E-mail"><br>
+
+
+                    <label for="targetLang"><b>Target language: </b></label>
+
+                    <select name="targetLang" id="targetLang">
+                        <option value="Spanish">Spanish</option>
+                        <option value="French">French</option>
+                        <option value="Swahili">Swahili</option>
+
+                    </select><br>
+
+                    <b>Target language ability: </b><br>
+                    <input type="checkbox" id="langLevel1" name=langLevel1" value="L1">
+                    <label for="langLevel1">Beginner</label><br>
+                    <input type="checkbox" id="langLevel2" name="langLevel2" value="L2">
+                    <label for="langLevel2">Intermediate</label><br>
+                    <input type="checkbox" id="langLevel3" name="langLevel3" value="L3">
+                    <label for="LangLevel3">Advanced</label>
+            
+
+                </p>
+                <p><input type="submit" onclick="alert('Double check your data!')"></p>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

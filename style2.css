@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+
+}
+html, body {
+    margin:0px;
+    height:100vh;
+  }
+p {
+    line-height: 1.5;
+}
+.layout {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+  }
+  .sidebar {
+    background: linear-gradient(#E6FF9B, #dfff7e);
+    background-color: #E6FF9B;
+    color: green;
+    width: 20%;
+    padding: 2%;
+}
+/* .sidebar a:hover {
+    background-color: #E6FF9B;
+} */
+.content {
+    background-color: #F4FFD1;
+    color: #505050;
+    padding: 2%;
+
+}
+game {
+    background-color: #000;
+    height: 100px;
+    width: 150px;
+}
+a:link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    margin: 2%;
+}
+a:visited {
+    text-decoration: line-through;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: #FFF;
+}
+input[type=text] {
+    border-bottom, border-right: solid 5px #505050;
+    border-top, border-left: 0px;
+  }
+#sidebar a:link {
+    padding: 10px;
+}
+checkbox:checked {
+    color: #FFF;
+    background-color: #000;
+}
+textarea {
+    border-right, border-bottom: solid 4px #505050;
+}
+table {
+    border-collapse: collapse;
+    width: fit-content;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th:first-child {
+    text-align: center;
+}
+th, td:first-child {
+    text-transform: uppercase;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 600px) {
+/* add a hamburger menu icon */
+/* change the styling on links of sidebar in mobile */
+}
+
+@media only screen and (min-width: 900px) {
+
+}
+

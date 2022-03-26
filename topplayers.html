@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>Learn a language with crosswords!</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+    <section class="layout">
+        <div class="sidebar">
+            <img src="logo.png" alt="logo" width="100px"><br>
+            <a href="index.html">Home</a><br>
+            <a href="login.html">Login</a><br>
+            <a href="signup.html">Sign Up</a><br>
+            <a href="topplayers.html">Top Player List</a>
+
+            <!-- Add Javascript f(x) to re-open sidebar -->
+            <!-- When sidebar is collapsed, need to reduce width of contents within content -->
+            <p align="center">
+                <button onclick="hideSide()"> Click to hide the sidebar!</button>
+            </p>
+        </div>
+        <div class="content">
+
+            Use javascript (insertRow(tableRef. rows. length);) to add row to table. Need an API endpoint for this.
+
+            Need to use player initials instead of full name. Use splice to remove all but first index.
+
+            Need to sort top users by recent activity (weekly?) and points. Where points are equal, devolve to first
+            initial.
+
+            If there is no recent data, should I add a message indicating that the
+            list is currently unavailable OR use an out of date list? (last month data)
+
+            <center>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>M.J.</td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>N.R.</td>
+                            <td>4900</td>
+                        </tr>
+                        <tr>
+                            <td>L.C.</td>
+                            <td>3000</td>
+                        </tr>
+                        <tr>
+                            <td>N.H.</td>
+                            <td>2000</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </center>
+
+
+
+
+        </div>
+    </section>
+
+</body>
+
+</html>
