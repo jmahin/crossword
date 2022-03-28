@@ -10,6 +10,9 @@ html, body {
 p {
     line-height: 1.5;
 }
+h1 {
+    
+}
 .layout {
     display: flex;
     flex-wrap: nowrap;
@@ -35,6 +38,7 @@ p {
     background-color: #F4FFD1;
     color: #505050;
     padding: 2%;
+    width: 80%;
 
 }
 game {
