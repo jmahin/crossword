@@ -6,12 +6,11 @@ body {
 html, body {
     margin:0px;
     height:100vh;
+    font-family: "Space Grotesk";
+    letter-spacing: -1%;
   }
 p {
     line-height: 1.5;
-}
-h1 {
-    
 }
 .layout {
     display: flex;
