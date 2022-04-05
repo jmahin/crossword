@@ -1,12 +1,25 @@
+/* skin by changing root */
+:root {
+    --sidebar: #6EA24D;
+    --text: #000;
+    --sidebartext: #221100;
+    --content: #EBF5DF;
+    --contenttext: #3C620E;
+    --lcolor: #FFF;
+    --lvisit: #0A210F;
+    --lhover: #B5E994;
+    --h1: #0A210F;
+    --tabn: #DFDFDF;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #000;
+    color: var(--text);
 
 }
 html, body {
-    margin:0px;
-    height:100vh;
-    font-family: "Space Grotesk";
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: -1%;
   }
 p {
@@ -24,52 +37,69 @@ p {
     position: absolute;
   }
   .sidebar {
-    background: linear-gradient(#E6FF9B, #dfff7e);
-    background-color: #E6FF9B;
-    color: green;
+    /* background: linear-gradient(#E6FF9B, #dfff7e); */
+    background-color: var(--sidebar);
+    color: var(--sidebartext);
     width: 20%;
     padding: 2%;
+    font-family: "Space Grotesk";
 }
 /* .sidebar a:hover {
     background-color: #E6FF9B;
 } */
 .content {
-    background-color: #F4FFD1;
-    color: #505050;
+    background-color: var(--content);
+    /* color: #505050; */
+    color: var(--contenttext);
     padding: 2%;
     width: 80%;
 
 }
+h1 {
+    color: var(--h1);
+}
 game {
-    background-color: #000;
+    background-color: var(--text)
     height: 100px;
     width: 150px;
+    align-content: center;
 }
 a:link {
     text-decoration: none;
     text-transform: uppercase;
-    color: #000;
+    color: var(--text);
     margin: 2%;
 }
 a:visited {
     text-decoration: line-through;
+    color: var(--lvisit);
 }
 a:hover {
     text-decoration: underline;
+    color: var(--lhover);
+    letter-spacing: 1em;
 }
 a:active {
-    color: #FFF;
+    color: var(--lcolor);
 }
 input[type=text] {
-    border-bottom, border-right: solid 5px #505050;
-    border-top, border-left: 0px;
+    border-bottom: solid 5px var(--sidebar);
+    border-right: solid 5px var(--sidebar);
+    border-top:  solid 0px;
+    border-left: solid 0px;
+    border-radius: 5%;
+    width: 10%;
+    height: 10%;
+  }
+input[type=text] .hover {
+      color: var(--tabn);
   }
 #sidebar a:link {
     padding: 10px;
 }
 checkbox:checked {
     color: #FFF;
-    background-color: #000;
+    background-color: var(--sidebar);
 }
 textarea {
     border-right, border-bottom: solid 4px #505050;
@@ -78,7 +108,6 @@ table {
     border-collapse: collapse;
     width: fit-content;
 }
-  
 th, td {
     text-align: left;
     padding: 8px;
@@ -90,7 +119,7 @@ th, td:first-child {
     text-transform: uppercase;
 }
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: var(--tabn);
 }
 
 @media only screen and (max-width: 600px) {

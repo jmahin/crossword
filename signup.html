@@ -5,15 +5,26 @@
 <head>
     <title>Learn a language with crosswords!</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <script src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Grotesk">
+    <script defer src="scripts/scripts.js"></script>
 </head>
 
 <body>
 
     <section class="layout">
         <div class="sidebar">
+            <h1>Crxssword</h1>
+            <!-- <img src="logo.png" alt="logo" width="100px"><br> -->
             <a href="index.html">Home</a><br>
             <a href="login.html">Login</a><br>
+            <a href="signup.html">Sign Up</a><br>
+            <a href="topplayers.html">Top Player List</a>
+
+            <!-- Add Javascript f(x) to re-open sidebar -->
+            <!-- When sidebar is collapsed, need to reduce width of contents within content -->
+            <p align="center">
+                <button onclick="hideSide()"> Click to hide the sidebar!</button>
+            </p>
         </div>
         <div class="content">
 
@@ -24,7 +35,8 @@
                 <!-- Need to validate user input -->
                 <!-- Need to create dummy database -->
                 <p><b>Name: </b><input type="text" name="name" placeholder="First name"><br>
-                    <b>Username/pseudo: </b><input type="text" name="username" placeholder="Username"><br>
+                    <b>Username: </b><input type="text" name="user" placeholder="Username"><br>
+                    <b>Password: </b><input type="text" name="pass" placeholder="Password"><br>
                     <b>E-mail: </b><input type="text" name="email" placeholder="E-mail"><br>
 
 
@@ -44,7 +56,7 @@
                     <label for="langLevel2">Intermediate</label><br>
                     <input type="checkbox" id="langLevel3" name="langLevel3" value="L3">
                     <label for="LangLevel3">Advanced</label>
-            
+
 
                 </p>
                 <p><input type="submit" onclick="alert('Double check your data!')"></p>
