@@ -10,6 +10,7 @@
     --lhover: #B5E994;
     --lactive: #900E51;
     --h1: #0A210F;
+    --h1content: #4B3F72;
     --tabn: #DFDFDF;
 }
 body {
@@ -50,7 +51,6 @@ p {
 } */
 .content {
     background-color: var(--content);
-    /* color: #505050; */
     color: var(--contenttext);
     padding: 2%;
     width: 80%;
@@ -60,7 +60,11 @@ h1 {
     color: var(--h1);
     font-family: "Space Grotesk";
 }
-game {
+h1:hover {
+    color: var(--h1content);
+    font-style: italic;
+}
+.game {
     background-color: var(--text)
     height: 100px;
     width: 150px;
@@ -97,7 +101,7 @@ input[type=text] {
     border-left: solid 0px;
     border-radius: 5%;
     width: 10%;
-    height: 10%;
+    height: 30%;
   }
 input[type=text] .hover {
       color: var(--tabn);
