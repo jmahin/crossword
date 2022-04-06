@@ -14,6 +14,17 @@ function retrieveWords() {
 
 // need to obtain dummy data OR download a dictionary
 
+const words = [
+    { name: 'train', type: 'locomotive'},
+    { name: 'apple', type: 'granny smith'},
+    { name: 'banana', type: 'gros michel'},
+    { name: 'canada', type: 'land of hockey and maple syrup' },
+    { name: 'tahiti', type: 'Polynesian island'},
+    { name: }
+]
+
+
+
 // functionality re: difficulty level + no of words, not to be implemented atm
 
 // pull 10 words from db
