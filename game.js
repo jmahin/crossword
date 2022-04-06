@@ -9,11 +9,20 @@ function () {
 function retrieveWords() {
     // some sort of command to pull words from DB
 }
+
+// in the meanwhile, pull words from a db
+
 // need to obtain dummy data OR download a dictionary
 
 // functionality re: difficulty level + no of words, not to be implemented atm
 
 // pull 10 words from db
+
+// in html, create a grid and assign a value to each grid (does it contain a letter or no?)
+
+// for styling, if it contains a letter, then make the square x color with y border (find a way to collapse adjacent borders)
+
+// if it doesnt contain a letter, make sure it's filled in black (or whatever color)
 
 // determine intersections 
 
