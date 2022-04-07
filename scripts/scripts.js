@@ -37,25 +37,8 @@ const topPlayers = [
 // if there is no fresh data, return ""
 
 
-// function table(myArray) {
-//     var result = "<table border=1>";
-//     for(var i=0; i<myArray.length; i++) {
-//         result += "<tr>";
-//         for(var j=0; j<myArray[i].length; j++){
-//             result += "<td>"+myArray[i][j]+"</td>";
-//         }
-//         result += "</tr>";
-//     }
-//     result += "</table>";
-
-//     return result;
-// }
-
-
 // latin character validation
-// if (str.match(/[a-z]/i)) {
-    // alphabet letters found
-}
+
 
 // check to make sure username does not already exist in database
 
