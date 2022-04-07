@@ -1,4 +1,18 @@
 /* skin by changing root */
+/* :root {
+    --sidebar: #226F54;
+    --text: #000;
+    --sidebartext: #F4F0BB;
+    --content: #F4F0BB;
+    --contenttext: #43291F;
+    --lcolor: #FFF;
+    --lvisit: #0A210F;
+    --lhover: #87C38F;
+    --lactive: #DA2C38;
+    --h1: #0A210F;
+    --h1content: #DA2C38;
+    --tabn: #87C38F;
+} */
 :root {
     --sidebar: #6EA24D;
     --text: #000;
@@ -63,6 +77,10 @@ h1 {
 h1:hover {
     color: var(--h1content);
     font-style: italic;
+    text-decoration: overline;
+}
+.sidebar h1 {
+    width: 2em;
 }
 .game {
     background-color: var(--text)
@@ -95,15 +113,15 @@ a:active {
 
 }
 input[type=text] {
-    border-bottom: solid 5px var(--sidebar);
+    /* border-bottom: solid 5px var(--sidebar); */
     border-right: solid 5px var(--sidebar);
+    border-bottom: solid 5px var(--sidebar);
     border-top:  solid 0px;
     border-left: solid 0px;
-    border-radius: 5%;
-    width: 10%;
-    height: 30%;
+    font-size: 1em;
+    /* border-radius: 20px; */
   }
-input[type=text] .hover {
+input[type=text]:hover {
       color: var(--tabn);
   }
 #sidebar a:link {
