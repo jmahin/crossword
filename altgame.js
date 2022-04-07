@@ -8,7 +8,7 @@
 
 const wordArray = ['person', 'woman', 'man', 'camera','TV'];
 
-const guessWord = document.getElementById('game2');
+// const guessWord = document.getElementById('game2');
 
 // function randomWord() {
 //     let wordOne = wordArray[Math.floor(Math.random()*wordArray.length)];
@@ -33,8 +33,34 @@ console.log(word1Length);
 //         box.value = box.value.substr(0, characterLimit);
 // }
 
-let firstWord = document.getElementById("firstWord");
-const inputWord1 = document.createElement("box");
+// let firstWord = document.getElementById("firstWord");
+// firstWord.innerText = "firstWord";
+// firstWord.appendChild(box);
+
+// const firstWord = document.getElementById("firstWord");
+// const entry1 = document.createElement("wordNumeroUno");
+// document.firstWord.appendChild(firstWord);
+
+// ..
+// const insertWord1 = document.querySelector('para1');
+// // NEED A LOOP TO # OF "BOXES" TO CREATE
+// for(x = 0, x < word1S.length, x ++){
+//     const element1 = document.createElement('box');
+//     element1.appendChild(document.createElement("box"));
+
+
+// }
+// ..
+
+function addBox() {
+    
+    let() {
+        // # of iterations depending on # of elements in array
+    }
+}
+
+// const inputWord1 = document.createElement("box");
+// inputWord1.appendChild(document.createElement("box"));
 
 
 
@@ -55,6 +81,8 @@ const inputWord1 = document.createElement("box");
 // function submit() {
 //     push data to db
 //     push score to page
-//     delete submit button from page
+//     delete submit button from page .removeattrib
 //     maybe a different function, but validate by blocking any further user input
 // }
+
+// use loop for validation (latin characters, no numbers, no more than one character)
