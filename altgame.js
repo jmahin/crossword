@@ -24,4 +24,21 @@ let word1S = [...word1];
 // alt tocharArray();
 console.log(word1S);
 
+let word1SLength = word1S.length;
+console.log(word1SLength);
+// NEED TO VALIDATE USER INPUT, RESTRICT TO ONE CHARACTER PER BOX
+// function validate("box") {
+//     const characterLimit = 1;
+//     if(box.value.length > characterLimit) {
+//         box.value = box.value.substr(0, characterLimit);
+// }
 
+let firstWord = document.getElementById("firstWord");
+
+// WHEN WORD HAS X ELEMENTS IN ARRAY(word1S), then create the same number of input/boxes
+
+
+
+
+// HOW TO DRAW 5 words from repository?
+// function > loop > inject text"box" for each letter in newly formed array
