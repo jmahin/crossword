@@ -8,6 +8,14 @@
 
 const wordArray = ['person', 'woman', 'man', 'camera','TV'];
 
+const wordAndDef = [
+    {w: 'person', d: 'a human being regarded as an individual.'};
+    {w: 'woman', d: 'an adult female human being.'};
+    {w: 'man', d: 'an adult female human being.'};
+    {w: 'camera', d: 'a device for recording visual images in the form of photographs, film, or video signals.'};
+    {w: 'TV', d: 'a device that receives television signals and reproduces them on a screen.'};
+]
+
 // const guessWord = document.getElementById('game2');
 
 // function randomWord() {
@@ -53,24 +61,17 @@ console.log(word1Length);
 // ..
 
 function addBox() {
-    
+
     let() {
         // # of iterations depending on # of elements in array
     }
 }
 
-// const inputWord1 = document.createElement("box");
-// inputWord1.appendChild(document.createElement("box"));
 
 
 
 // WHEN WORD HAS X ELEMENTS IN ARRAY(word1S), then create the same number of input/boxes
 
-// switch (expression) {
-//     case(word1a): 
-//     let 
-//     [break;]
-// }
 
 
 // HOW TO DRAW 5 words from repository?
@@ -80,8 +81,8 @@ function addBox() {
 // Submit activity
 // function submit() {
 //     push data to db
-//     push score to page
-//     delete submit button from page .removeattrib
+//     push score to page 
+//     delete submit button from page .removeattrib. also the box colors should be greyed out.
 //     maybe a different function, but validate by blocking any further user input
 // }
 
